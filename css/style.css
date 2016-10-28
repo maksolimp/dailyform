@@ -1,0 +1,149 @@
+body{
+	font: 400 13px/1.3 'Arial', Helvetica, sans-serif;
+	background: #ea355a url('../img/mainbg.png') no-repeat;
+	background-size: cover;
+	color: #797B7F;
+}
+
+/* Typography */
+a {
+	color: #e22a6c;
+	text-decoration: none;
+	border-bottom: none;
+}
+a:hover{
+	border-bottom: 1px solid;
+}
+a:active{
+	color: #df0011;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button {
+	display: inline-block;
+	border-radius: 4px;
+	text-align: center;
+	padding: 0 20px;
+	border: none;
+	outline: none;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #df0011;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	display: inline-block;
+	border-radius: 4px;
+	outline: none;
+	border-style: none;
+	background:  #f0f0f0;
+	min-height: 14px;
+	line-height: 14px;
+	padding: 11px 11px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	color: #EA355A;
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	border-color: #df0011;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+textarea {
+
+}
+
+/* Layout */
+
+.ba-container{
+	border-radius: 4px;
+	background-color: #FFF;
+	max-width: 460px;
+	padding: 25px 30px 42px;
+	margin-top: 61px;
+	margin: 61px auto 0;
+	max-width: 460px;
+	background: #FFF;
+}
+.ba-account__header{
+	background: url('../img/key.png') no-repeat;
+}
+.ba-account__action{
+	font-size: 24px;
+	font-weight: 700;
+	color: #1b1c1d;
+	margin: 0;
+	padding-left: 34px;
+	padding-bottom: 10px;
+}
+.ba-account__text{
+	letter-spacing: 0.015em;
+	line-height: 1.5;
+}
+.ba-account__main{
+	padding: 32px 0 20px;
+}
+.ba-account__email,
+.ba-account__password{
+	width: 100%;
+}
+.ba-account__first-name{
+	float: left;
+	width: 48%;
+}
+.ba-account__last-name{
+	float: right;
+	width: 47%;
+}
+.ba-account__submit{
+	width: 100%;
+	margin-bottom: 20px;
+
+	color:#fff;
+	background:  #ea355a;
+	font-size: 18px;
+	font-weight: 700;
+	height: 51px;
+	padding-bottom: px;
+}
+.ba-account__footer span{
+	line-height: 1.4;
+}
+.ba-account__footer{
+	margin-top: 4px;
+	text-align: justify;
+}
+.ba-account__footer a{
+	font-size: 12px;
+}
